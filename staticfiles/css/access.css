@@ -1,0 +1,87 @@
+/* Banner Section */
+.banner-access {
+    background-image: url("../images/banner.png"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    rotate: 180deg;
+}
+.banner-access h2 {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    bottom: -40px;
+    font-weight: 600;
+    rotate: 180deg;
+}
+
+/* Access Section */
+.access {
+    background-color: #EBE0D0;
+    padding: 10px;
+}
+.access-content .address, .access-content .phone, .access-content .email, .access-content .day, .access-content .time {
+    font-size: 24px;
+    color: #672D06;
+    position: relative;
+    right: -60px;
+}
+.access-content .address p, .access-content .phone p, .access-content .email p, .access-content .day p, .access-content .time p{
+    font-weight: 400;
+}
+.access-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+.access-content {
+    width: 500px;
+    height: 500px;
+    background-color: #F8F4EF;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.access-content h2 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    /* Banner Section */
+    .banner-access {
+        background-image: url('../images/banner_mobile.png');
+        height: 100px;
+    }
+    .banner-access h2 {
+        font-size: 30px;
+        font-weight: 500;
+        bottom: -22px;
+    }
+
+    /* Access Section */
+    .access-container {
+        flex-direction: column;
+        padding: 10px 0;
+        gap: 20px;
+    }
+    .access-content {
+        width: 100%;
+        height: 100%;
+    }
+    .access-content .address, .access-content .phone, .access-content .email, .access-content .day, .access-content .time {
+        right: 0;
+        font-size: 20px;
+    }
+}

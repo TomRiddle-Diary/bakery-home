@@ -1,0 +1,37 @@
+{% extends 'bakery/base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="banner-access">
+    <h2>Access</h2>
+</section>
+
+<section class="access">
+    <div class="access-container container">
+        <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;border-radius:20px;"><div id="my-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=university+of+Nagasaki&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="the-googlemap-enabler" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a><style>#my-map-display img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+        <div class="access-content">
+            <div class="day">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>Open: Sunday ~ Friday</p>
+            </div>
+            <div class="time">
+                <i class="fa-solid fa-clock"></i>
+                <p>Time: 9:00am ~ 17:00pm</p>
+            </div>
+            <div class="address">
+                <i class="fa-solid fa-house"></i>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                <p>090-9293-6890</p>
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <p>bb123021@sun.ac.jp</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

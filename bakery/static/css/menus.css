@@ -99,15 +99,15 @@
         gap: 15px;
         padding: 10px;
     }
-    .image_container {
+    .menu-page .menu_container .item_container .image_container {
         width: 135px;
         height: 130px;
         padding: 10px;
     }
-    .item_container p {
+    .menu-page .menu_container .item_container p {
         font-size: 14px;
     }
-    .item_container .name {
+    .menu-page .menu_container .item_container .name {
         font-size: 15px;
     }    
 }
@@ -117,11 +117,11 @@
         width: 135px;
         height: 120px;
     }
-    .image_container {
+    .menu-page .menu_container .item_container .image_container {
         width: 115px;
         height: 120px;
     }
-    .item_container .name {
+    .menu-page .menu_container .item_container .item_container .name {
         font-size: 14px;
     }
 }

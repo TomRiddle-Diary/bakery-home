@@ -375,13 +375,19 @@ footer {
 }
 
 @media (max-width: 350px) {
-    .day p, time p {
+    .open .day p, .open .time p {
         font-size: 16px;
+    }
+    .open .day, .open .time {
+        padding-bottom: 10px;
     }
     .items {
         gap: 10px;
     }
     .copyright {
         font-size: 12px;
+    }
+    .menu .menu_container .item_container {
+        font-size: 16px;
     }
 }

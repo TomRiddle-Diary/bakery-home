@@ -262,6 +262,7 @@ footer {
     }
     .cta {
         align-self: center;
+        font-size: 20px;
     }
 
     /* Navigation */
@@ -286,6 +287,7 @@ footer {
         width: 100%;
         padding: 10px;
         margin: 0;
+        text-align: center;
     }
     
     /* Show menu only when 'active' class is added */
@@ -302,7 +304,8 @@ footer {
         width: 90%;
     }
     .hero_contents p {
-        font-size: 20px;
+        font-size: 18px;
+        text-align: center;
     }
     .hero_contents h1 {
         font-size: 52px;
@@ -333,6 +336,7 @@ footer {
     }
     .day p, .time p {
         font-weight: 500;
+        font-size: 18px;
     }
 
 
@@ -367,5 +371,17 @@ footer {
     }
     footer {
         padding-top: 24px;
+    }
+}
+
+@media (max-width: 350px) {
+    .day p, time p {
+        font-size: 16px;
+    }
+    .items {
+        gap: 10px;
+    }
+    .copyright {
+        font-size: 12px;
     }
 }
